@@ -1,17 +1,17 @@
 //
-//  LopengGLESUITests.m
-//  LopengGLESUITests
+//  LopengLESUITests.m
+//  LopengLESUITests
 //
 //  Created by 李勇猛 on 2021/2/23.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LopengGLESUITests : XCTestCase
+@interface LopengLESUITests : XCTestCase
 
 @end
 
-@implementation LopengGLESUITests
+@implementation LopengLESUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

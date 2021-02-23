@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E88511F225E5518700A60022 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E88511F125E5518700A60022 /* AppDelegate.m */; };
+		E88511F525E5518700A60022 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E88511F425E5518700A60022 /* SceneDelegate.m */; };
+		E88511F825E5518700A60022 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88511F725E5518700A60022 /* ViewController.m */; };
+		E88511FB25E5518700A60022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88511F925E5518700A60022 /* Main.storyboard */; };
+		E88511FD25E5518D00A60022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88511FC25E5518D00A60022 /* Assets.xcassets */; };
+		E885120025E5518D00A60022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88511FE25E5518D00A60022 /* LaunchScreen.storyboard */; };
+		E885120325E5518D00A60022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E885120225E5518D00A60022 /* main.m */; };
+		E885120D25E5518D00A60022 /* LopengLESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E885120C25E5518D00A60022 /* LopengLESTests.m */; };
+		E885121825E5518E00A60022 /* LopengLESUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E885121725E5518E00A60022 /* LopengLESUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E885120925E5518D00A60022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88511E525E5518700A60022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E88511EC25E5518700A60022;
+			remoteInfo = LopengLES;
+		};
+		E885121425E5518D00A60022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88511E525E5518700A60022 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E88511EC25E5518700A60022;
+			remoteInfo = LopengLES;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E88511ED25E5518700A60022 /* LopengLES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LopengLES.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88511F025E5518700A60022 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E88511F125E5518700A60022 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E88511F325E5518700A60022 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E88511F425E5518700A60022 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E88511F625E5518700A60022 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E88511F725E5518700A60022 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E88511FA25E5518700A60022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E88511FC25E5518D00A60022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E88511FF25E5518D00A60022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E885120125E5518D00A60022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E885120225E5518D00A60022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E885120825E5518D00A60022 /* LopengLESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LopengLESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E885120C25E5518D00A60022 /* LopengLESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LopengLESTests.m; sourceTree = "<group>"; };
+		E885120E25E5518D00A60022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E885121325E5518D00A60022 /* LopengLESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LopengLESUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E885121725E5518E00A60022 /* LopengLESUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LopengLESUITests.m; sourceTree = "<group>"; };
+		E885121925E5518E00A60022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E88511EA25E5518700A60022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885120525E5518D00A60022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885121025E5518D00A60022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E88511E425E5518700A60022 = {
+			isa = PBXGroup;
+			children = (
+				E88511EF25E5518700A60022 /* LopengLES */,
+				E885120B25E5518D00A60022 /* LopengLESTests */,
+				E885121625E5518D00A60022 /* LopengLESUITests */,
+				E88511EE25E5518700A60022 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E88511EE25E5518700A60022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88511ED25E5518700A60022 /* LopengLES.app */,
+				E885120825E5518D00A60022 /* LopengLESTests.xctest */,
+				E885121325E5518D00A60022 /* LopengLESUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E88511EF25E5518700A60022 /* LopengLES */ = {
+			isa = PBXGroup;
+			children = (
+				E88511F025E5518700A60022 /* AppDelegate.h */,
+				E88511F125E5518700A60022 /* AppDelegate.m */,
+				E88511F325E5518700A60022 /* SceneDelegate.h */,
+				E88511F425E5518700A60022 /* SceneDelegate.m */,
+				E88511F625E5518700A60022 /* ViewController.h */,
+				E88511F725E5518700A60022 /* ViewController.m */,
+				E88511F925E5518700A60022 /* Main.storyboard */,
+				E88511FC25E5518D00A60022 /* Assets.xcassets */,
+				E88511FE25E5518D00A60022 /* LaunchScreen.storyboard */,
+				E885120125E5518D00A60022 /* Info.plist */,
+				E885120225E5518D00A60022 /* main.m */,
+			);
+			path = LopengLES;
+			sourceTree = "<group>";
+		};
+		E885120B25E5518D00A60022 /* LopengLESTests */ = {
+			isa = PBXGroup;
+			children = (
+				E885120C25E5518D00A60022 /* LopengLESTests.m */,
+				E885120E25E5518D00A60022 /* Info.plist */,
+			);
+			path = LopengLESTests;
+			sourceTree = "<group>";
+		};
+		E885121625E5518D00A60022 /* LopengLESUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E885121725E5518E00A60022 /* LopengLESUITests.m */,
+				E885121925E5518E00A60022 /* Info.plist */,
+			);
+			path = LopengLESUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E88511EC25E5518700A60022 /* LopengLES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885121C25E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLES" */;
+			buildPhases = (
+				E88511E925E5518700A60022 /* Sources */,
+				E88511EA25E5518700A60022 /* Frameworks */,
+				E88511EB25E5518700A60022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LopengLES;
+			productName = LopengLES;
+			productReference = E88511ED25E5518700A60022 /* LopengLES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E885120725E5518D00A60022 /* LopengLESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885121F25E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLESTests" */;
+			buildPhases = (
+				E885120425E5518D00A60022 /* Sources */,
+				E885120525E5518D00A60022 /* Frameworks */,
+				E885120625E5518D00A60022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E885120A25E5518D00A60022 /* PBXTargetDependency */,
+			);
+			name = LopengLESTests;
+			productName = LopengLESTests;
+			productReference = E885120825E5518D00A60022 /* LopengLESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E885121225E5518D00A60022 /* LopengLESUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E885122225E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLESUITests" */;
+			buildPhases = (
+				E885120F25E5518D00A60022 /* Sources */,
+				E885121025E5518D00A60022 /* Frameworks */,
+				E885121125E5518D00A60022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E885121525E5518D00A60022 /* PBXTargetDependency */,
+			);
+			name = LopengLESUITests;
+			productName = LopengLESUITests;
+			productReference = E885121325E5518D00A60022 /* LopengLESUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E88511E525E5518700A60022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					E88511EC25E5518700A60022 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					E885120725E5518D00A60022 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E88511EC25E5518700A60022;
+					};
+					E885121225E5518D00A60022 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E88511EC25E5518700A60022;
+					};
+				};
+			};
+			buildConfigurationList = E88511E825E5518700A60022 /* Build configuration list for PBXProject "LopengLES" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E88511E425E5518700A60022;
+			productRefGroup = E88511EE25E5518700A60022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E88511EC25E5518700A60022 /* LopengLES */,
+				E885120725E5518D00A60022 /* LopengLESTests */,
+				E885121225E5518D00A60022 /* LopengLESUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E88511EB25E5518700A60022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885120025E5518D00A60022 /* LaunchScreen.storyboard in Resources */,
+				E88511FD25E5518D00A60022 /* Assets.xcassets in Resources */,
+				E88511FB25E5518700A60022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885120625E5518D00A60022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885121125E5518D00A60022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E88511E925E5518700A60022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88511F825E5518700A60022 /* ViewController.m in Sources */,
+				E88511F225E5518700A60022 /* AppDelegate.m in Sources */,
+				E885120325E5518D00A60022 /* main.m in Sources */,
+				E88511F525E5518700A60022 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885120425E5518D00A60022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885120D25E5518D00A60022 /* LopengLESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E885120F25E5518D00A60022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E885121825E5518E00A60022 /* LopengLESUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E885120A25E5518D00A60022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E88511EC25E5518700A60022 /* LopengLES */;
+			targetProxy = E885120925E5518D00A60022 /* PBXContainerItemProxy */;
+		};
+		E885121525E5518D00A60022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E88511EC25E5518700A60022 /* LopengLES */;
+			targetProxy = E885121425E5518D00A60022 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E88511F925E5518700A60022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88511FA25E5518700A60022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E88511FE25E5518D00A60022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E88511FF25E5518D00A60022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E885121A25E5518E00A60022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E885121B25E5518E00A60022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E885121D25E5518E00A60022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLES/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E885121E25E5518E00A60022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLES/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E885122025E5518E00A60022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLESTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLESTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LopengLES.app/LopengLES";
+			};
+			name = Debug;
+		};
+		E885122125E5518E00A60022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLESTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLESTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LopengLES.app/LopengLES";
+			};
+			name = Release;
+		};
+		E885122325E5518E00A60022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLESUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLESUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LopengLES;
+			};
+			name = Debug;
+		};
+		E885122425E5518E00A60022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LopengLESUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddd.LopengLESUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LopengLES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E88511E825E5518700A60022 /* Build configuration list for PBXProject "LopengLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885121A25E5518E00A60022 /* Debug */,
+				E885121B25E5518E00A60022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E885121C25E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885121D25E5518E00A60022 /* Debug */,
+				E885121E25E5518E00A60022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E885121F25E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885122025E5518E00A60022 /* Debug */,
+				E885122125E5518E00A60022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E885122225E5518E00A60022 /* Build configuration list for PBXNativeTarget "LopengLESUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E885122325E5518E00A60022 /* Debug */,
+				E885122425E5518E00A60022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E88511E525E5518700A60022 /* Project object */;
+}
